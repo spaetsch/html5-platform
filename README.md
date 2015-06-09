@@ -1,5 +1,6 @@
 # readme!
-Peggy Wiltz
-Sarah Paetsch
+- Peggy Wiltz
+
+- Sarah Paetsch
 
 Food Truck Fun!
