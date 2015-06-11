@@ -1,6 +1,7 @@
 // Primary function for the Geo location app
 function success(position) {
   // create a simple variable for the ID
+
   var s = document.querySelector('#geostatus');
 
   if (s.className == 'success') {
@@ -62,6 +63,9 @@ function error(msg) {
 // statement that tests for device functionality
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(success, error);
+  console.log("here");
+  console.log(success);
+  console.log(position)
 } else {
   error('not supported');
 }
