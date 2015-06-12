@@ -1,5 +1,7 @@
+/*----- CORE ELEMENTS -----*/
+
 body {
-	background-color: #D9BEA7;
+	background-color: #E2F0D6;
 	color: black;
 	font-family: "Open Sans", sans-serif;
 	margin: 0 0 100px;
@@ -7,18 +9,58 @@ body {
 
 header {
 	margin: 0 2em 0 2em;
-	border-bottom: solid #9BDAF2;
-}
-
-video {
-	display: inline-block;
+  border-bottom: medium solid #1F4254;
+  color: #1F4254;
 }
 
 main {
-  width: 1000px;
-	float: left;
+  /*width: 1000px;  - changed to % widths */
+	/*float: left;*/
+  width:75%;
 	margin-left: 50px;
 }
+
+#copyright {  /*changed this from footer bc article footers and this need different styles*/
+  clear: both;
+ /* left: 2em;  deleting unnecessary styling from our earlier experiments
+  bottom: 0;
+  width: 100%;*/
+  padding: 5em;
+  font-size: smaller;
+}
+
+footer{ /*  add this for common bold styling across both types of footers*/
+  font-weight: bold;
+}
+
+/*------ NAVIGATION -----*/
+
+nav {
+  /*width: 300px; - changed to % widths */
+  width: 15%;
+  float: right;
+  margin: 0;
+  padding: 0 30px 0 10px;
+  margin: 0 10px 0 10px;
+  height: 100%;
+  background-color: #F6FFE0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  font-size: larger;
+  background-color: #BDD684;
+  margin: 5px 0 5px 0;
+}
+
+nav ul li:hover {
+  background-color: #95AB63;
+}
+
+/*----- LINKS -----*/
 
 a:link{
 	text-decoration: none;
@@ -27,6 +69,8 @@ a:link{
 a:hover {
 	color: white;
 }
+
+/*----- ARTICLES -----*/
 
 article {
 	margin-left: 5em;
@@ -37,50 +81,23 @@ article header {
 	margin-left: -30px;
 }
 
-article footer {
-	position: relative;
-}
+/*----- SPECIAL ELEMENTS -----*/
 
-nav {
-	width: 300px;
-	float: right;
-  margin: 0;
-  padding: 0 30px 0 10px;
-  margin: 0 10px 0 10px;
-	height: 100%;
-	background-color: #9BDAF2;
-}
-
-nav ul {
-	list-style-type: none;
-}
-
-nav ul li {
-	font-size: larger;
-	background-color: #88C9F2;
-	margin: 5px 0 5px 0;
-}
-nav ul li:hover {
-	background-color: #24594D;
-}
-
-footer {
-	position: absolute;
-  left: 2em;
-  bottom: 0;
-  width: 100%;
-	font-weight: bold;
-	font-size: small;
+video {
+  /*display: inline-block; Changed to float with text wrapping around */
+  float: left;
+  margin-right : 1em;
 }
 
 aside {
 	width: 300px;
-	border: solid #51718C;
-	background-color: #51718C;
+  margin: 0.5em;
+  padding: 0.5em;
+	/*border: solid #51718C;*/
+	background-color: #1C3A4A;
 	color: white;
 	display: inline;
 	font-size: larger;
 	float: right;
-	
 }
 
