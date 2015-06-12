@@ -10,7 +10,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-	<script src="foodtruck.js"></script>
 </head>
 <body>
   <header>
@@ -63,12 +62,14 @@
         <label for="email_message">Message Body: </label><br>
         <textarea rows="10" cols="50" id="email_message" name="email_message"></textarea>
 
-        <button>Email us!</button>
+        <button id="email_button">Email us!</button>
       </form>
     </section>
 	</main>
   <footer>
-    <p>&copy Peggy and Sarah 2015</p>
+    <p id="copyright">&copy Peggy and Sarah 2015</p>
   </footer>
+  <script src="js/localstorage.js"></script>
+
 </body>
 </html>
