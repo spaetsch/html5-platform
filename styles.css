@@ -33,6 +33,19 @@ footer{ /*  add this for common bold styling across both types of footers*/
   font-weight: bold;
 }
 
+button:focus{
+  background-color: #BDD684;
+}
+
+button:hover{
+  background-color: #BDD684;
+}
+
+button{
+  background-color: #F6FFE0;
+}
+
+
 /*------ NAVIGATION -----*/
 
 nav {
@@ -73,6 +86,11 @@ footer {
 
 a:link{
 	text-decoration: none;
+  color:green;
+}
+
+a:visited{
+  color: #1F4254;
 }
 
 a:hover {
@@ -91,6 +109,19 @@ article header {
 }
 
 /*----- SPECIAL ELEMENTS -----*/
+
+.longText {
+  width:250px;
+}
+
+.shortText{
+  width:50px;
+}
+
+.tinyText{
+  width:25px;
+}
+
 
 video {
   /*display: inline-block; Changed to float with text wrapping around */
