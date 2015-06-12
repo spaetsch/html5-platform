@@ -1,0 +1,18 @@
+CACHE MANIFEST
+#06/11/2015 v2
+
+CACHE:
+js/geo.js
+styles.css
+blog.html
+contacts.html
+Orders.html
+spring-weather-1.mp3
+/favicon.ico
+
+NETWORK:
+*
+
+FALLBACK:
+Rooster_1.mp4 images/placeholderChicken.JPG
+
