@@ -10,12 +10,12 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
   </head>
   <body>
-    <header>
+    <header role="banner">
       <h1>
         Yay Food Trucks
       </h1>
     </header>
-    <nav>
+    <nav role="navigation">
       <ul>
         <li class="navlink">
           <a href="index.html">Home</a>
@@ -34,7 +34,7 @@
         </li>
       </ul>
     </nav>
-    <main>
+    <main role="main">
       <section id="address">
         <h2>
           Location
@@ -48,24 +48,24 @@
       </h2>
       <fieldset>
       <section id="email_form">
-        <form id="contact_form" name="contact_form">
+        <form id="contact_form" name="contact_form" role="form">
           <label for="email_to">To: us@hotmail.com</label><br>
 
           <label for="email_from">Your email address:</label>
-          <input type="email" id="email_from" name="email_from" class="longText"><br>
+          <input type="email" id="email_from" name="email_from" required role="textbox" aria-required="true" class="longText"><br>
 
           <label for="email_subject">Subject: </label>
-          <input type="text" id="email_subject" name="email_subject" class="longText"><br>
+          <input type="text" id="email_subject" name="email_subject" role="textbox" class="longText"><br>
 
           <label for="email_message">Message Body: </label><br>
-          <textarea rows="10" cols="50" id="email_message" name="email_message"></textarea><br>
+          <textarea rows="10" cols="50" id="email_message" name="email_message" role="textbox" aria-multiline="true"></textarea><br>
 
-          <button id="email_button">Email us!</button>
+          <button id="email_button" role="button">Email us!</button>
         </form>
       </fieldset>
       </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
       <p id="copyright">&copy Peggy and Sarah 2015</p>
     </footer>
     <script src="js/localstorage.js"></script>

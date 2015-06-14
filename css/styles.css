@@ -1,35 +1,30 @@
 /*----- CORE ELEMENTS -----*/
 
 body {
-	background-color: #E2F0D6;
-	color: black;
-	font-family: "Open Sans", sans-serif;
-	margin: 0 0 100px;
+  background-color: #E2F0D6;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 100px;
 }
 
 header {
-	margin: 0 2em 0 2em;
+  margin: 0 2em 0 2em;
   border-bottom: medium solid #1F4254;
   color: #1F4254;
 }
 
 main {
-  /*width: 1000px;  - changed to % widths */
-	/*float: left;*/
-  width:75%;
-	margin-left: 50px;
+  width: 75%;
+  margin-left: 50px;
 }
 
-#copyright {  /*changed this from footer bc article footers and this need different styles*/
+#copyright {
   clear: both;
- /* left: 2em;  deleting unnecessary styling from our earlier experiments
-  bottom: 0;
-  width: 100%;*/
   padding: 5em;
   font-size: smaller;
 }
 
-footer{ /*  add this for common bold styling across both types of footers*/
+footer{
   font-weight: bold;
 }
 
@@ -45,11 +40,9 @@ button{
   background-color: #F6FFE0;
 }
 
-
 /*------ NAVIGATION -----*/
 
 nav {
-  /*width: 300px; - changed to % widths */
   width: 15%;
   float: right;
   margin: 0;
@@ -74,70 +67,68 @@ nav ul li:hover {
 }
 
 footer {
-	clear: both;
+  clear: both;
   left: 2em;
   bottom: 0;
   width: 100%;
-	font-weight: bold;
-	font-size: small;
+  font-weight: bold;
+  font-size: small;
 }
 
 /*----- LINKS -----*/
 
-a:link{
-	text-decoration: none;
-  color:green;
+a:link {
+  text-decoration: none;
+  color: green;
 }
 
-a:visited{
+a:visited {
   color: #1F4254;
 }
 
 a:hover {
-	color: white;
+  color: white;
 }
 
 /*----- ARTICLES -----*/
 
 article {
-	margin-left: 5em;
+  margin-left: 5em;
 }
 
 article header {
-	border-bottom: 0;
-	margin-left: -30px;
+  border-bottom: 0;
+  margin-left: -30px;
 }
 
 /*----- SPECIAL ELEMENTS -----*/
 
 .longText {
-  width:250px;
+  width: 250px;
 }
 
-.shortText{
-  width:50px;
+.shortText {
+  width: 50px;
 }
 
-.tinyText{
-  width:25px;
+.tinyText {
+  width: 25px;
 }
 
 
 video {
-  /*display: inline-block; Changed to float with text wrapping around */
   float: left;
   margin-right : 1em;
 }
 
 aside {
-	width: 300px;
+  width: 300px;
   margin: 0.5em;
   padding: 0.5em;
-	/*border: solid #51718C;*/
-	background-color: #1C3A4A;
-	color: white;
-	display: inline;
-	font-size: larger;
-	float: right;
+  background-color: #1C3A4A;
+  color: white;
+  display: inline;
+  font-size: larger;
+  float: right;
 }
 
