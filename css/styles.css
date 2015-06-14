@@ -24,19 +24,19 @@ main {
   font-size: smaller;
 }
 
-footer{
+footer {
   font-weight: bold;
 }
 
-button:focus{
+button:focus {
   background-color: #BDD684;
 }
 
-button:hover{
+button:hover {
   background-color: #BDD684;
 }
 
-button{
+button {
   background-color: #F6FFE0;
 }
 
@@ -56,13 +56,13 @@ nav ul {
   list-style-type: none;
 }
 
-#navlink {
+.navlink {
   font-size: larger;
-  background-color: #BDD684;
+  background-color:  #BDD684;
   margin: 5px 0 5px 0;
 }
 
-#navlink:hover {
+.navlink:hover {
   background-color: #95AB63;
 }
 
