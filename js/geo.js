@@ -63,6 +63,9 @@ function error(msg) {
 // statement that tests for device functionality
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(success, error);
+  console.log("here");
+  console.log(success);
+  console.log(position)
 } else {
   error('not supported');
 }
