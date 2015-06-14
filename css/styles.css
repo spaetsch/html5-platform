@@ -56,13 +56,13 @@ nav ul {
   list-style-type: none;
 }
 
-nav ul li {
+#navlink {
   font-size: larger;
   background-color: #BDD684;
   margin: 5px 0 5px 0;
 }
 
-nav ul li:hover {
+#navlink:hover {
   background-color: #95AB63;
 }
 
@@ -101,7 +101,7 @@ article header {
   margin-left: -30px;
 }
 
-/*----- SPECIAL ELEMENTS -----*/
+/*----- INPUTS -----*/
 
 .longText {
   width: 250px;
@@ -116,19 +116,21 @@ article header {
 }
 
 
+/*----- SPECIAL ELEMENTS -----*/
+
 video {
   float: left;
   margin-right : 1em;
 }
 
 aside {
-  width: 300px;
+	width: 300px;
   margin: 0.5em;
   padding: 0.5em;
-  background-color: #1C3A4A;
-  color: white;
-  display: inline;
-  font-size: larger;
-  float: right;
+	background-color: #1C3A4A;
+	color: white;
+	display: inline;
+	font-size: larger;
+	float: right;
 }
 
