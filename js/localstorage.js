@@ -1,13 +1,13 @@
 //event listeners for text fields: on keyup in input text field, save text to local storage
-document.getElementById("email_from").addEventListener('keyup', function () {
+document.getElementById("email_from").addEventListener('keyup', function() {
   localStorage.setItem('store_email', this.value);
 });
 
-document.getElementById("email_subject").addEventListener('keyup', function () {
+document.getElementById("email_subject").addEventListener('keyup', function() {
   localStorage.setItem('store_subject', this.value);
 });
 
-document.getElementById("email_message").addEventListener('keyup', function () {
+document.getElementById("email_message").addEventListener('keyup', function() {
   localStorage.setItem('store_message', this.value);
 });
 
