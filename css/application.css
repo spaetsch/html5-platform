@@ -6,11 +6,8 @@
  */
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  -webkit-text-size-adjust: 100%; }
 
 /**
  * Remove default margin.
@@ -237,8 +234,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -356,7 +352,7 @@ td,
 th {
   padding: 0; }
 
-/*----- CORE ELEMENTS ----- */
+/*----- CORE ELEMENTS -----*/
 body {
   background-color: #A7B0AB;
   color: black;
@@ -372,21 +368,23 @@ main {
   width: 75%;
   margin-left: 50px; }
 
-/*----- LINKS ----- */
+/*----- LINKS -----*/
 a {
   text-decoration: none;
   color: #BA8289; }
   a:visited {
     color: #79434a; }
+  a:hover {
+    color: white; }
 
-/*----- ARTICLES ----- */
+/*----- ARTICLES -----*/
 article {
   margin-left: 5em; }
   article header {
     border-bottom: 0;
     margin-left: -30px; }
 
-/*----- SPECIAL ELEMENTS ----- */
+/*----- SPECIAL ELEMENTS -----*/
 video {
   float: left;
   margin-right: 1em; }
@@ -419,7 +417,7 @@ button {
     color: #79434a;
     background-color: #E3C1D6; }
 
-/*------ NAVIGATION ----- */
+/*------ NAVIGATION -----*/
 nav {
   width: 15%;
   float: right;
@@ -444,7 +442,7 @@ nav {
     text-decoration: none;
     color: white; }
 
-/*----- INPUTS ----- */
+/*----- INPUTS -----*/
 .longText {
   width: 20.83em; }
 
@@ -463,5 +461,3 @@ footer {
   bottom: 0;
   width: 100%;
   font-size: small; }
-
-/*# sourceMappingURL=application.css.map */

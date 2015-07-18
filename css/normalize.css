@@ -6,11 +6,8 @@
  */
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  -webkit-text-size-adjust: 100%; }
 
 /**
  * Remove default margin.
@@ -237,8 +234,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -355,5 +351,3 @@ table {
 td,
 th {
   padding: 0; }
-
-/*# sourceMappingURL=normalize.css.map */
