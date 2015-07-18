@@ -1,0 +1,25 @@
+{
+  "name": "sass-project",
+  "version": "0.1.0",
+  "description": "Updating an old project and refactoring css into sass",
+  "main": "index.html",
+  "dependencies": {
+    "express": "^4.13.1",
+    "gulp": "^3.9.0",
+    "node-sass": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PeggyWiltz/html5-platform.git"
+  },
+  "author": "Peg Wiltz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeggyWiltz/html5-platform/issues"
+  },
+  "homepage": "https://github.com/PeggyWiltz/html5-platform"
+}
